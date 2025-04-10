@@ -1,4 +1,4 @@
-# Exercices JavaScript
+# Exercice CSS
 
 Premier exercice multi-pages dans le cadre du cours de CSS
 
