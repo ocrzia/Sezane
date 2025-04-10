@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+html {
+  background:url('../img/bg_pattern.png');
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.grid {
+  display: grid;
+  &:has(.card) {
+    grid-template-columns:repeat(12, 1fr);
+  }
+}
+.wrapper {
+  max-width:1300px;
+  margin: auto;
+}
