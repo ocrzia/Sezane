@@ -70,8 +70,9 @@ body {
     justify-content: center;
   }
   &__price:not(.card__price--inbox)::before {
-    content:'— ';
+    content:'—';
     margin-left: 10px;
+    margin-right: 10px;
   }
   &__box {
     display: none;
@@ -102,14 +103,14 @@ body {
 }
 .quick-shop {
   position: absolute;
-  bottom:30px;
-  right: 30px;
+  bottom:15px;
+  right: 15px;
 }
 .wishlist {
   position: absolute;
   cursor:pointer;
-  top: 30px;
-  right: 30px;
+  top: 15px;
+  right: 15px;
   &:hover::after {
     content:attr(title);
     position: absolute;
@@ -123,7 +124,7 @@ body {
 }
 .page-top30 {
   .card--big {
-    grid-column:span 6;
+    grid-column:span 12;
     @media screen and (min-width:770px) {
       grid-column:span 6;
     }
